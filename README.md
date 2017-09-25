@@ -1,6 +1,8 @@
 # Raman-Analysis-Graphene
 Raman map analysis of graphene, available in command line (CL) and graphical user interface (GUI) versions.
+
 INSTRUCTIONS FOR CL VERSION
+
 The input file is a .txt Raman map file with format:
  - 1st row: x-coordinate at which spectrum was taken
  - 2nd row: y-coordinate at which spectrum was taken
@@ -29,6 +31,7 @@ CL functions:
  - Excel table named 'summary' with average peak parameters
 
 INSTRUCTIONS FOR GUI VERSION
+
 Add the folder of GUI functions to the MATLAB path and type 'beginRamanAnalysis' into the Command Window.
 Upon initialization, user inputs include
  - folder containing Raman map text file (.txt) and optical image file (.jpg)
